@@ -1,9 +1,0 @@
-version: '3.2'
-services:
-  dev-hibro:
-    container_name: dev-hibro
-    image: artisandigitalasia/hibro:dev
-    ports: 
-      - 1003:8080
-    environment:
-      - ENDPOINT_URL=https://dev-hibro.artisandigital.tech
