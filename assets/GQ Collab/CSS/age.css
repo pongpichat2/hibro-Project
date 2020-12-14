@@ -1,0 +1,38 @@
+  .demo {
+      text-align: center;
+      position: relative;
+      width: 375px;
+      height: 812px;
+      background: #FFFFFF;
+      border: 20px solid #D5EBFA;
+  }
+
+  #text {
+      font-size: 30px;
+      text-align: left;
+      margin: 20px;
+  }
+
+  #age1,
+  #age2 {
+      background-color: #D5EBFA;
+      color: rgb(0, 0, 0);
+      border: 5px solid #D5EBFA;
+      font-size: 200px;
+      margin-top: 60px;
+      width: 160px;
+      height: 220px;
+      text-align: center;
+      border-radius: 20px;
+  }
+
+  .button {
+      background-color: Transparent;
+      color: rgb(34, 0, 255);
+      border: 2px solid #4501ff;
+      font-size: 20px;
+      margin-top: 320px;
+      width: 260px;
+      height: 65px;
+      cursor: pointer;
+  }

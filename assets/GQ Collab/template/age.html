@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/age.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+   
+<body>
+
+    <div class="demo">
+        <div>
+            
+            <p id="text">คุณอายุเท่าไหร่?</p>
+
+            <input type="text" id="age1" v-model="age1" pattern="[0-9]" title="โปรดกรอกตัวเลขเท่านั้นค่ะ 0-9" minlength="1" maxlength="1" value="1" required>
+            <input type="text" id="age2" v-model="age2" pattern="[0-9]" title="โปรดกรอกตัวเลขเท่านั้นค่ะ 0-9" minlength="1" maxlength="1" value="8" required>
+
+        <div>
+            <!-- <button class="button" onclick="location.href='scorebar.html'">LET'S START</button> -->
+            <button class="button" @click="addAnswer">LET'S START</button>
+        </div>
+            
+
+        </div>
+    </div>
+</body>
+<script src="../JS/age.js"></script>
+</html>
