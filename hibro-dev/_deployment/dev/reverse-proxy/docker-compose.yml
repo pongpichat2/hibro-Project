@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  reverse-proxy:
+    container_name: reverse-proxy
+    build: .
+    # image: artisandigitalasia/revers-proxy
+    restart: always
+    ports:
+      - 80:80
+      - 443:443

@@ -1,0 +1,34 @@
+{
+  "name": "hibro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:local": "cross-env NODE_ENV=local nuxt",
+    "dev:dev": "cross-env NODE_ENV=dev nuxt",
+    "dev:staging": "cross-env NODE_ENV=staging nuxt",
+    "dev:prod": "cross-env NODE_ENV=production nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate:local": "cross-env NODE_ENV=local nuxt generate",
+    "generate:dev": "cross-env NODE_ENV=dev nuxt generate",
+    "generate:staging": "cross-env NODE_ENV=staging nuxt generate",
+    "generate:prod": "cross-env NODE_ENV=production nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "axios": "^0.19.1",
+    "core-js": "^3.6.5",
+    "cross-env": "^7.0.2",
+    "nuxt": "^2.14.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-plugin-vue": "^7.0.0-beta.0",
+    "nodemon": "^1.18.9",
+    "prettier": "^2.0.5",
+    "prettier-eslint": "^11.0.0"
+  }
+}
