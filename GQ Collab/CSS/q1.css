@@ -1,0 +1,42 @@
+  .demo {
+      text-align: center;
+      position: relative;
+      width: 375px;
+      height: 812px;
+      background: #FFFFFF;
+      border: 20px solid #D5EBFA;
+  }
+
+  .choice{
+      width: 310px;
+      border:20px solid #D5EBFA;
+      text-align: left;
+      margin: 10px;
+      background-color: #D5EBFA;
+
+  }
+
+  .choice input[type=radio] {
+      width: 15%;
+      height: 22px;
+  }
+ .button {
+    background-color: Transparent;
+    color: rgb(34, 0, 255);
+    border: 2px solid #4501ff;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 220px;
+    height: 65px;
+    cursor: pointer;
+ }
+  .button1 {
+      background-color: #c5c5c5;
+      color: #505050;
+      border: 2px solid #c5c5c5;
+      margin-top: 20px;
+      width: 70px;
+      height: 65px;
+      cursor: pointer;
+  }
+

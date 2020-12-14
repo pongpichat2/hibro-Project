@@ -1,0 +1,52 @@
+  .demo {
+      text-align: center;
+      position: relative;
+      width: 375px;
+      height: 812px;
+      background: #FFFFFF;
+      border: 20px solid #D5EBFA;
+  }
+
+  .Answer-Choice input[type=radio] {
+      display: none;
+  }
+
+  .Answer-Choice input[type=radio]+label {
+      display: inline-block;
+      width: 300px;
+      height: 70px;
+      background-color: #D5EBFA;
+      transition: 0.1s;
+      text-align: center;
+      cursor: pointer;
+      font-size: 20px;
+      border: rgb(27, 61, 255);
+      padding: 5%;
+  }
+  .Answer-Choice input[type=radio]:checked+label {
+
+      color: rgb(0, 0, 0);
+      /* transition: 0.8s; */
+      background-color: #AAD7F6;
+  }
+
+  .button {
+      background-color: Transparent;
+      color: rgb(34, 0, 255);
+      border: 2px solid #4501ff;
+      font-size: 20px;
+      margin-top: 170px;
+      width: 220px;
+      height: 65px;
+      cursor: pointer;
+  }
+
+  .button1 {
+      background-color: #c5c5c5;
+      color: #505050;
+      border: 2px solid #c5c5c5;
+      margin-top: 20px;
+      width: 70px;
+      height: 65px;
+      cursor: pointer;
+  }
